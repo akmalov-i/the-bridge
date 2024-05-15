@@ -1,0 +1,7 @@
+File from: [app/images/src/fruit1.png]
+
+File to: [app/images/dest/fruit1.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: spawn C:\Users\weber\OneDrive\Рабочий стол\gulp-4-lesson-master\node_modules\pngquant-bin\vendor\pngquant.exe ENOENT

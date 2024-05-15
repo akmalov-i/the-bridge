@@ -1,0 +1,68 @@
+.v-application p {
+  margin-bottom: 0 !important;
+}
+
+.v-application ul,
+.v-application ol {
+  padding-left: 0 !important;
+}
+
+.v-application .primary {
+  background-color: $blue !important;
+  border-color: $blue !important;
+}
+
+.v-application .orange {
+  background-color: $orange !important;
+  border-color: $orange !important;
+}
+
+.custom .v-application--wrap {
+  min-height: auto;
+}
+
+.v-application .accent {
+  background-color: $blue !important;
+  border-color: $blue !important;
+}
+
+.v-application .accent--text {
+  color: $blue !important;
+  caret-color: $blue !important;
+}
+
+.v-application .accent--text {
+  font-size: 1.2rem;
+}
+
+.v-application {
+  line-height: 100%;
+
+  a {
+    color: unset;
+  }
+}
+
+.v-picker__title {
+  width: 290px;
+}
+
+.mdi-chevron-right::before {
+  content: '';
+  background-image: url('../assets/icons/c-arrow-right.svg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mdi-chevron-left::before {
+  content: '';
+  background-image: url('../assets/icons/c-arrow-left.svg');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
